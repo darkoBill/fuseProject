@@ -17,7 +17,7 @@ public class Launcher {
     	try {
     		ctx.addRoutes(route);
         	ctx.start();
-        	Thread.sleep(5 * 20 * 100);
+        	Thread.sleep(5 * 30 * 100);
         	ctx.stop();
 			
 		} catch (Exception e) {
